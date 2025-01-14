@@ -11,9 +11,13 @@
     "test": "vitest run"
   },
   "dependencies": {
+    "@apollo/client": "^3.12.5",
+    "graphql": "^16.10.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "subscriptions-transport-ws": "^0.11.0",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -28,5 +32,6 @@
     "vite": "^3.0.7",
     "vite-plugin-eslint": "^1.8.1",
     "vitest": "^0.22.1"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
