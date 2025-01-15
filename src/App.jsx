@@ -135,7 +135,7 @@ const BitqueryWebSocketComponent = () => {
 
   return (
     <div>
-      <h2>Bitquery WebSocket Example</h2>
+      <h3>Bitquery WebSocket Example</h3>
       <p>Connection Status: {isConnected ? "Connected" : "Disconnected"}</p>
       {error && <p style={{ color: "red" }}>Error: {JSON.stringify(error)}</p>}
       {/* {data &bitqueryConnection */}
